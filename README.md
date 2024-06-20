@@ -23,10 +23,12 @@ Los tres modelos se extrajeron de los siguientes repositorios:
 La data de los activos se extrajo de la API de yahoo finance.
 https://developer.yahoo.com/api/
 
+Crear un entorno virtual (opcional)
+- python install virtualenv
+- virtualenv "nombre_del_entorno"
 
 Iniciar entorno virtual 
 - .\Script\activate
-
 
 Librerias a instalar
 - pip install numpy pandas yfinance scikit-learn matplotlib torch 
